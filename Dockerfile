@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 
-# Expose cổng 5173
+# Expose cổng 3000
 EXPOSE 3000
 
 # Lệnh chạy Nginx
